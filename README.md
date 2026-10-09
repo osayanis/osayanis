@@ -16,24 +16,24 @@ Je construis des outils que j'utilise vraiment : des apps web en pair-à-pair, u
 
 ---
 
-### 🧪 OsaLabs, mon labo perso
+### 🧪 OsaLabs
 
-Une famille d'apps qui marchent **sans serveur au milieu** : tout passe en WebRTC, directement d'un appareil à l'autre.
+Un écosystème d'applications en pair-à-pair : les données passent directement d'un appareil à l'autre via WebRTC, sans stockage sur un serveur.
 
-| | Projet | Ce que ça fait | Stack |
+| | Projet | Description | Stack |
 |:-:|---|---|---|
-| 👻 | [**OsaNotch**](https://github.com/osayanis/osanotch-native) | L'encoche du MacBook devient un compagnon : paroles synchronisées, étagère à fichiers, et une notif quand Claude Code a fini | Swift · SwiftUI · AppKit |
-| 🎉 | [**OsaParty**](https://github.com/osayanis/osaparty) | Écoute Apple Music & Spotify synchronisée entre amis, avec code PIN ou QR code | Next.js · Socket.io |
-| 🚀 | [**OsaDrop**](https://github.com/osayanis/osadrop) | Transfert de fichiers en pair-à-pair avec un code à 6 caractères | WebRTC · Next.js |
-| 📺 | **OsaCast** | Partage d'écran instantané, rien à installer | WebRTC · Next.js |
+| 👻 | [**OsaNotch**](https://github.com/osayanis/osanotch-native) | App macOS native qui transforme l'encoche du MacBook en hub : lecteur avec paroles synchronisées, étagère de fichiers, HUD système et accès aux apps OsaLabs | Swift · SwiftUI · AppKit |
+| 🎉 | [**OsaParty**](https://github.com/osayanis/osaparty) | Sessions d'écoute synchronisées Apple Music & Spotify, accessibles par code PIN ou QR code | Next.js · Socket.io |
+| 🚀 | [**OsaDrop**](https://github.com/osayanis/osadrop) | Transfert de fichiers en pair-à-pair, sans compte ni stockage serveur | WebRTC · Next.js |
+| 📺 | **OsaCast** | Partage d'écran depuis le navigateur, sans installation | WebRTC · Next.js |
 | 🎨 | **OsaBoard** | Tableau blanc collaboratif en temps réel | Canvas · WebRTC |
 
-### 🔬 À côté
+### 🔬 Autres projets
 
-- 🎹 [**Clavio**](https://github.com/osayanis/clavio) : apprendre le piano façon Duolingo avec un clavier MIDI. 28 leçons, import de fichiers MIDI, zéro dépendance.
-- 🎧 **OpenPod OS** : l'OS d'un baladeur audiophile sur Raspberry Pi Zero 2 W. Lecture bit-perfect, objectif de démarrage sous 3 secondes. *(en cours)*
-- 🖥️ [**Proxmox Automatisation**](https://github.com/osayanis/Proxmox-Automatisation-Script) : créer des conteneurs et des VM en masse depuis un menu Bash.
-- ⌨️ [**Mon portfolio**](https://github.com/osayanis/portfoliov3) : un clavier mécanique PORT/FOLIO interactif, avec mon GitHub en direct.
+- 🎹 [**Clavio**](https://github.com/osayanis/clavio) : application web d'apprentissage du piano connectée en Web MIDI. 28 leçons progressives et import de fichiers MIDI, sans aucune dépendance.
+- 🎧 **OpenPod OS** : système Linux embarqué pour un baladeur audiophile sur Raspberry Pi Zero 2 W. Lecture bit-perfect, démarrage visé sous 3 secondes. *(en cours)*
+- 🖥️ [**Proxmox Automatisation**](https://github.com/osayanis/Proxmox-Automatisation-Script) : script Bash de provisionnement en masse de conteneurs et de VM sur Proxmox VE.
+- ⌨️ [**Portfolio**](https://github.com/osayanis/portfoliov3) : site interactif en JavaScript vanilla, avec mes données GitHub en direct.
 
 ### 🧰 Ma boîte à outils
 
