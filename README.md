@@ -1,68 +1,47 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=900&color=F3A6CF&center=true&vCenter=true&width=620&lines=Bonjour%2C+je+suis+Yanis+%F0%9F%91%8B;%C3%89tudiant%2C+je+donne+vie+%C3%A0+mes+id%C3%A9es+avec+l'IA;WebRTC+%C2%B7+Swift+%C2%B7+Linux+embarqu%C3%A9" alt="Bonjour, je suis Yanis. Étudiant, je donne vie à mes idées avec l'IA." />
-
-<br />
-
-Je construis des outils que j'utilise vraiment : des apps web en pair-à-pair, une app macOS native,<br />un baladeur audio sous Linux… Presque tout part d'un truc qui m'agaçait au quotidien.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg" />
+  <img src=".github/assets/banner-light.svg" alt="Yanis Boussaid — Développeur, étudiant en BTS CIEL, fondateur d'OsaLabs" width="100%" />
+</picture>
 
 <br />
 
-<a href="https://osalabs.fr"><img src="https://img.shields.io/badge/OsaLabs-osalabs.fr-4f9dfb?style=for-the-badge&labelColor=1a1a1a" alt="OsaLabs" /></a>
-<a href="https://yanis.pro"><img src="https://img.shields.io/badge/Site-yanis.pro-f3a6cf?style=for-the-badge&labelColor=1a1a1a" alt="Site perso" /></a>
-<img src="https://img.shields.io/badge/Discord-yanis.osa-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a1a" alt="Discord : yanis.osa" />
+Étudiant en **BTS CIEL** en alternance au sein d'un service informatique, je développe en parallèle **OsaLabs** : une suite d'applications macOS natives et d'outils web temps réel, conçus, déployés et maintenus de bout en bout, du code jusqu'au serveur.
 
-</div>
+[![Portfolio](https://img.shields.io/badge/Portfolio-yanis.pro-1f2328?style=flat-square)](https://yanis.pro) [![OsaLabs](https://img.shields.io/badge/OsaLabs-osalabs.fr-4f9dfb?style=flat-square)](https://osalabs.fr) [![LinkedIn](https://img.shields.io/badge/LinkedIn-yansb-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yansb)
 
----
+## Projets
 
-### 🧪 OsaLabs
+#### Applications macOS
 
-Un écosystème d'applications en pair-à-pair : les données passent directement d'un appareil à l'autre via WebRTC, sans stockage sur un serveur.
+| Projet | Description | Stack |
+|---|---|---|
+| [OsaNotch](https://github.com/osayanis/osanotch-native) | Transforme l'encoche du MacBook en espace utile : lecteur avec paroles synchronisées, étagère de fichiers, HUD système. | Swift · SwiftUI · AppKit |
+| [OsaHUB](https://github.com/osayanis/osahub) | Installe et met à jour toutes les apps OsaLabs depuis un seul endroit. | Swift · SwiftUI |
+| [OsaBoot](https://github.com/osayanis/osaboot) | Crée une clé USB démarrable depuis macOS, y compris à partir d'une ISO Windows. | Swift · wimlib |
+| [OsaWallpaper](https://github.com/osayanis/osawallpaper) | Adapte l'écran verrouillé du Mac aux couleurs de la musique en cours. | Swift |
 
-| | Projet | Description | Stack |
-|:-:|---|---|---|
-| 👻 | [**OsaNotch**](https://github.com/osayanis/osanotch-native) | App macOS native qui transforme l'encoche du MacBook en hub : lecteur avec paroles synchronisées, étagère de fichiers, HUD système et accès aux apps OsaLabs | Swift · SwiftUI · AppKit |
-| 🎉 | [**OsaParty**](https://github.com/osayanis/osaparty) | Sessions d'écoute synchronisées Apple Music & Spotify, accessibles par code PIN ou QR code | Next.js · Socket.io |
-| 🚀 | [**OsaDrop**](https://github.com/osayanis/osadrop) | Transfert de fichiers en pair-à-pair, sans compte ni stockage serveur | WebRTC · Next.js |
-| 📺 | **OsaCast** | Partage d'écran depuis le navigateur, sans installation | WebRTC · Next.js |
-| 🎨 | **OsaBoard** | Tableau blanc collaboratif en temps réel | Canvas · WebRTC |
+#### Web et temps réel
 
-### 🔬 Autres projets
+| Projet | Description | Stack |
+|---|---|---|
+| [OsaDrop](https://github.com/osayanis/osadrop) | Transfert de fichiers pair-à-pair, sans compte ni stockage serveur. | WebRTC · Next.js |
+| [OsaParty](https://github.com/osayanis/osaparty) | Écoute synchronisée Apple Music et Spotify entre amis, par code PIN ou QR code. | Next.js · Socket.io |
+| [OsaMaps](https://github.com/osayanis/osamaps) | Application de navigation (PWA et app iOS). | TypeScript · Swift |
+| [Clavio](https://github.com/osayanis/clavio) | Apprentissage du piano en Web MIDI : leçons progressives et import de fichiers MIDI. | JavaScript |
 
-- 🎹 [**Clavio**](https://github.com/osayanis/clavio) : application web d'apprentissage du piano connectée en Web MIDI. 28 leçons progressives et import de fichiers MIDI, sans aucune dépendance.
-- 🎧 **OpenPod OS** : système Linux embarqué pour un baladeur audiophile sur Raspberry Pi Zero 2 W. Lecture bit-perfect, démarrage visé sous 3 secondes. *(en cours)*
-- 🖥️ [**Proxmox Automatisation**](https://github.com/osayanis/Proxmox-Automatisation-Script) : script Bash de provisionnement en masse de conteneurs et de VM sur Proxmox VE.
-- ⌨️ [**Portfolio**](https://github.com/osayanis/portfoliov3) : site interactif en JavaScript vanilla, avec mes données GitHub en direct.
+#### Systèmes et infrastructure
 
-### 🧰 Ma boîte à outils
+| Projet | Description | Stack |
+|---|---|---|
+| [EraseKEY](https://github.com/osayanis/erasekey) | Clé USB amorçable qui efface complètement les disques d'un PC, avec une interface console en français. | Go · Bubble Tea |
+| [OsaTV](https://github.com/osayanis/osatv) | Écran d'accueil sur mesure pour Android TV. | Kotlin · Compose for TV |
+| [Proxmox Automatisation](https://github.com/osayanis/Proxmox-Automatisation-Script) | Provisionnement en masse de conteneurs et de VM sur Proxmox VE. | Bash |
+| OpenPod OS | Système Linux embarqué pour un baladeur audio sur Raspberry Pi Zero 2 W, co-développé. *En cours.* | Linux embarqué |
+
+## Technologies
 
 <p>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
-<img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" />
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://skillicons.dev/icons?i=swift,ts,react,nextjs,tailwind,nodejs,go,kotlin,python,bash,linux,nginx,git&perline=13" alt="Swift, TypeScript, React, Next.js, Tailwind CSS, Node.js, Go, Kotlin, Python, Bash, Linux, Nginx, Git" />
 </p>
 
-### 🧭 Ma façon de bosser
-
-`⌘` **Le déclic** : si je ne m'en sers pas, je ne le construis pas.<br />
-`⇧` **Proto rapide** : une version qui marche en quelques jours, avec l'IA comme copilote.<br />
-`⌥` **Le détail** : animations à ressort, petites mascottes, tout ce qui rend l'outil agréable.<br />
-`⏎` **On ship** : en ligne, en `.dmg` ou sur un Raspberry Pi.
-
----
-
-<div align="center">
-<sub>🇫🇷 Étudiant en BTS · ouvert aux projets, aux collabs et aux idées bizarres</sub>
-</div>
+L'ensemble d'OsaLabs tourne sur un VPS Linux que j'administre moi-même : Nginx, PM2, certificats TLS et accès SSH par clé uniquement.
